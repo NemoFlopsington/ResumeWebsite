@@ -1,0 +1,26 @@
+.hero-banner {
+  width: 100%;
+  height: 20vh;
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, var(--accent1) 0%, var(--primary) 100%);
+  color: white;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+.hero-banner-content {
+  text-align: left;
+}
+
+
+.hero-banner h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 7.5vw, 100rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--accent2);
+}
+

@@ -1,0 +1,17 @@
+.home-section {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background: var(--primary);
+  color: #0f172a;
+  flex-wrap: wrap;
+}
+
+.home-card {
+  flex: 1 1 320px;
+  max-width: 480px;
+}
